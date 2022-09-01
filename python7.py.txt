@@ -1,0 +1,6 @@
+Q7.
+Use a tab escape sequence to get the following lines.
+ Name Age Country City
+ Asabeneh 250 Finland Helsinki
+
+print("Name \t" "age  " "country " "  city\n" "Asabeneh " "250 " "Finland\t" "helsiniki")

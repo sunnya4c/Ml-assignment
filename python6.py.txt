@@ -1,0 +1,12 @@
+Q6.
+“I am a teacher and I love to inspire and teach people”
+• How many unique words have been used in the sentence? Use the split methods and set 
+to get the unique words.
+      text = "I am a teacher and I love to inspire and teach people"
+      p = text.split()
+      print(p)
+      q=p
+      z= len(p)
+      se =set(q)
+      print(z)
+      print(se)
