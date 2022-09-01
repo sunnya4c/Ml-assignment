@@ -1,0 +1,23 @@
+Q2.     
+• Create an empty dictionary called dog
+• Add name, color, breed, legs, age to the dog dictionary
+• Create a student dictionary and add first_name, last_name, gender, age, marital status, 
+skills, country, city and address as keys for the dictionary
+• Get the length of the student dictionary
+• Get the value of skills and check the data type, it should be a list
+• Modify the skills values by adding one or two skills
+• Get the dictionary keys as a list
+• Get the dictionary values as a list   
+
+dictionary empty#
+dog = {}
+#addition of  value pair keys
+ dog = {'name':'bunny', 'color':'pale white', 'breed':'korean', 'legs':'4', 'age':'2'}
+ student = {'first_name':'prashanth', 'last_name': 'JK', 'gender':'male', 'age': '26', 'marital_status':'com ited',
+ 'skills':['doctor'], 'country': 'Indian', 'city':'delhi', 'address':'105'}
+ print(f"the Length of Student Dictionay: {len(student)}")
+ print(type(student['skills']))
+ student['skills'].extend(['singing', 'dancing'])
+ print(student['skills'])
+ print(f" the kays of student dictionary:{student.keys()}")
+ print(f" the values of student dictionary: {student.values()}")
