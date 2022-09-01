@@ -1,0 +1,20 @@
+Q3.
+#Create a tuple containing names of your sisters and your brothers (imaginary siblings are 
+fine)
+     my_tuplebrother =()
+     my_tuplebrother= ("minaz", "rajesh", "Srikanth")
+     print(my_tuplebrother)
+     my_tuplesister =()
+     my_tuplesister=(" jineesha", "revathi", "veena")
+     print(my_tuplesister)
+Join brothers and sisters tuples and assign it to siblings
+     my_tuplesiblings = ()
+     my_tuplesiblings =  my_tuplebrother + my_tuplesister
+     print(my_tuplesiblings)
+How many siblings do you have?
+     print(len(my_tuplesiblings))
+Modify the siblings tuple and add the name of your father and mother and assign it to 
+family_members
+     my_familymember = ()
+     my_familymember = my_tuplesiblings + ("kavitha", "gopal")
+     print(my_familymember)
