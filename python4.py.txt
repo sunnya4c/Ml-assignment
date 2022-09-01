@@ -17,15 +17,15 @@ age = [22, 19, 24, 25, 26, 24, 25, 24]
 • Delete the sets completely
 • Convert the ages to a set and compare the length of the list and the set.
 
-print("Length of IT compaines: {len(it_companies)}")
-it_companies.add('facebook')
-print("add facebook: {it_companies}")
+print("{len(it_companies)}")
+it_companies.add('Twitter')
+print("{it_companies}")
 it_companies.update(['cognizant', 'wipro', 'jp morgan'])
 print("updated IT companies:{it_companies}")
 it_companies.remove('cognizant')
-print("remove a company:{it_companies}")
+print("{it_companies}")
 it_companies.discard('wipro')
-print("discard a company:{it_companies}")
+print("{it_companies}")
 print("join A AND B:{A | B}")
 print("intersection A AND B:{A & B}")
 print("if A is subset of B:{A.issubset(B)}")
